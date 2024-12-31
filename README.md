@@ -28,13 +28,18 @@ git clone https://github.com/mahmoodlab/TITAN.git
 cd TITAN
 ```
 
-Then create a conda env and install the dependencies:
+Then create a conda env and install the dependencies (in dir `TITAN/`):
 
 ```bash
-conda create -n titan python=3.9 -y
-conda activate titan
+conda create -n TITAN python=3.9 -y
+conda activate TITAN
 pip install --upgrade pip
 pip install -e .
+
+# Solve an incompatibility problem
+pip install numpy==1.26.4
+
+pip install -r requirements.txt
 ```
 
 ### 1. Getting access

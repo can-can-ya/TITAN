@@ -1,0 +1,83 @@
+{
+    "0": {
+        "_comment": "adapted from TITAN: https://github.com/mahmoodlab/TITAN",
+        "classnames": {
+            "LUAD": [
+                "lung adenocarcinoma",
+                "adenocarcinoma of the lung",
+                "pulmonary adenocarcinoma",
+                "peripheral lung adenocarcinoma",
+                "LUAD"
+            ],
+            "LUSC": [
+                "squamous cell carcinoma",
+                "lung squamous cell carcinoma",
+                "squamous carcinoma of the lung",
+                "LUSC"
+            ],
+            "IDC": [
+                "invasive ductal carcinoma",
+                "breast invasive ductal carcinoma",
+                "ductal carcinoma, no special type",
+                "IDC"
+            ],
+            "ILC": [
+                "invasive lobular carcinoma",
+                "breast invasive lobular carcinoma",
+                "invasive lobular carcinoma of the breast",
+                "lobular carcinoma",
+                "breast ILC"
+            ],
+            "CCRCC": [
+                "clear cell carcinoma",
+                "renal clear cell carcinoma",
+                "clear cell renal cell carcinoma",
+                "clear cell RCC",
+                "CCRCC"
+            ],
+            "PRCC": [
+                "papillary renal cell carcinoma",
+                "renal cell carcinoma, papillary type",
+                "papillary RCC",
+                "PRCC"
+            ],
+            "ESAD": [
+                "esophageal adenocarcinoma",
+                "adenocarcinoma of the esophageal",
+                "ESAD"
+            ],
+            "ESCC": [
+                "esophageal squamous cell carcinoma",
+                "esophageal SCC",
+                "squamous cell carcinoma of the esophagus",
+                "SCC of the esophagus",
+                "ESCC"
+            ]
+        },
+        "templates": [
+            "CLASSNAME.",
+            "an image of CLASSNAME.",
+            "the image shows CLASSNAME.",
+            "the image displays CLASSNAME.",
+            "the image exhibits CLASSNAME.",
+            "an example of CLASSNAME.",
+            "CLASSNAME is shown.",
+            "this is CLASSNAME.",
+            "I observe CLASSNAME.",
+            "the pathology image shows CLASSNAME.",
+            "a pathology image shows CLASSNAME.",
+            "the pathology slide shows CLASSNAME.",
+            "shows CLASSNAME.",
+            "contains CLASSNAME.",
+            "presence of CLASSNAME.",
+            "CLASSNAME is present.",
+            "CLASSNAME is observed.",
+            "the pathology image reveals CLASSNAME.",
+            "a microscopic image of showing CLASSNAME.",
+            "histology shows CLASSNAME.",
+            "CLASSNAME can be seen.",
+            "the tissue shows CLASSNAME.",
+            "CLASSNAME is identified."
+        ]
+    }
+}

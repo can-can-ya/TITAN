@@ -1,0 +1,43 @@
+{
+    "0": {
+        "classnames": {
+            "ESAD": [
+                "esophageal adenocarcinoma",
+                "adenocarcinoma of the esophageal",
+                "ESAD"
+            ],
+            "ESCC": [
+                "esophageal squamous cell carcinoma",
+                "esophageal SCC",
+                "squamous cell carcinoma of the esophagus",
+                "SCC of the esophagus",
+                "ESCC"
+            ]
+        },
+        "templates": [
+            "CLASSNAME.",
+            "an image of CLASSNAME.",
+            "the image shows CLASSNAME.",
+            "the image displays CLASSNAME.",
+            "the image exhibits CLASSNAME.",
+            "an example of CLASSNAME.",
+            "CLASSNAME is shown.",
+            "this is CLASSNAME.",
+            "I observe CLASSNAME.",
+            "the pathology image shows CLASSNAME.",
+            "a pathology image shows CLASSNAME.",
+            "the pathology slide shows CLASSNAME.",
+            "shows CLASSNAME.",
+            "contains CLASSNAME.",
+            "presence of CLASSNAME.",
+            "CLASSNAME is present.",
+            "CLASSNAME is observed.",
+            "the pathology image reveals CLASSNAME.",
+            "a microscopic image of showing CLASSNAME.",
+            "histology shows CLASSNAME.",
+            "CLASSNAME can be seen.",
+            "the tissue shows CLASSNAME.",
+            "CLASSNAME is identified."
+        ]
+    }
+}

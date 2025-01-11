@@ -1,0 +1,44 @@
+{
+    "0": {
+        "classnames": {
+            "LUAD": [
+                "lung adenocarcinoma",
+                "adenocarcinoma of the lung",
+                "pulmonary adenocarcinoma",
+                "peripheral lung adenocarcinoma",
+                "LUAD"
+            ],
+            "LUSC": [
+                "squamous cell carcinoma",
+                "lung squamous cell carcinoma",
+                "squamous carcinoma of the lung",
+                "LUSC"
+            ]
+        },
+        "templates": [
+            "CLASSNAME.",
+            "an image of CLASSNAME.",
+            "the image shows CLASSNAME.",
+            "the image displays CLASSNAME.",
+            "the image exhibits CLASSNAME.",
+            "an example of CLASSNAME.",
+            "CLASSNAME is shown.",
+            "this is CLASSNAME.",
+            "I observe CLASSNAME.",
+            "the pathology image shows CLASSNAME.",
+            "a pathology image shows CLASSNAME.",
+            "the pathology slide shows CLASSNAME.",
+            "shows CLASSNAME.",
+            "contains CLASSNAME.",
+            "presence of CLASSNAME.",
+            "CLASSNAME is present.",
+            "CLASSNAME is observed.",
+            "the pathology image reveals CLASSNAME.",
+            "a microscopic image of showing CLASSNAME.",
+            "histology shows CLASSNAME.",
+            "CLASSNAME can be seen.",
+            "the tissue shows CLASSNAME.",
+            "CLASSNAME is identified."
+        ]
+    }
+}

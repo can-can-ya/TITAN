@@ -12,7 +12,6 @@ import torch
 from torch.utils.data import DataLoader
 from transformers import AutoModel
 
-from TITAN.notebooks.zeroshot import dataset_name
 from TITAN.titan.utils import get_eval_metrics, TEMPLATES, bootstrap
 from TITAN.titan.wsi_datasets import WSIEmbeddingDataset
 

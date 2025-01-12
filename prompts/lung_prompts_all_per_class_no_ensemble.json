@@ -1,0 +1,15 @@
+{
+    "0": {
+        "classnames": {
+            "LUAD": [
+                "Lung adenocarcinoma"
+            ],
+            "LUSC": [
+                "Lung squamous cell carcinoma"
+            ]
+        },
+        "templates": [
+            "CLASSNAME."
+        ]
+    }
+}

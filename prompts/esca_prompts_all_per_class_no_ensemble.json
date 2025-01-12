@@ -1,0 +1,15 @@
+{
+    "0": {
+        "classnames": {
+            "ESAD": [
+                "Esophageal adenocarcinoma"
+            ],
+            "ESCC": [
+                "Esophageal squamous cell carcinoma"
+            ]
+        },
+        "templates": [
+            "CLASSNAME."
+        ]
+    }
+}

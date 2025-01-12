@@ -1,0 +1,15 @@
+{
+    "0": {
+        "classnames": {
+            "IDC": [
+                "Invasive ductal"
+            ],
+            "ILC": [
+                "Invasive lobular carcinoma"
+            ]
+        },
+        "templates": [
+            "CLASSNAME."
+        ]
+    }
+}

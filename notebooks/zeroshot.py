@@ -31,6 +31,7 @@ def read_datasplit_npz(path: str):
 
 os.environ["OMP_NUM_THREADS"] = "8"
 gpu_id = 0
+save_slide_feature = True
 device = torch.device("cuda:" + str(gpu_id) if torch.cuda.is_available() else "cpu")
 
 model = AutoModel.from_pretrained('/home/gjx/can_pretrained-model/TITAN', local_files_only=True, trust_remote_code=True)
@@ -73,6 +74,10 @@ patch_size_lv0 = 1024
 
 for fold in range(1, 11):
     for dataset_name in datasets:
+        if save_slide_feature:
+            slide_feats_TITAN_dir = f'/home/gjx/can_dataset/tcga_{dataset_name}/feats-l0-s1024_CONCH_v_1_5/slide_feats_TITAN_gpu'
+            os.makedirs(slide_feats_TITAN_dir, exist_ok=True)
+
         label_map = all_label_map[dataset_name]
 
         df = pd.read_csv(f'/home/gjx/can_dataset/tcga_{dataset_name}/table/TCGA_{dataset_name.upper()}_path_subtype_x40_processed.csv')
@@ -102,6 +107,8 @@ for fold in range(1, 11):
                 image_features = data['img'].to(device)
                 coords = data['coords'].to(device)
                 slide_embedding = model.encode_slide_from_patch_features(image_features, coords, patch_size_lv0)
+                if save_slide_feature:
+                    torch.save(slide_embedding.float().cpu(), os.path.join(slide_feats_TITAN_dir, data['slide_ids'][0][0]+'.pt'))
                 scores = model.zero_shot(slide_embedding, classifier).squeeze(0).cpu()
             probs.append(scores)
             target = data['label'] + dataset_label_shift[dataset_name]

@@ -116,5 +116,5 @@ class WSIEmbeddingDataset(Dataset):
                 all_coords = all_coords.squeeze(0)
         
         # out = {'img': F.normalize(all_features, dim=-1), 'label': label, 'coords': all_coords}
-        out = {'img': all_features, 'label': label, 'coords': all_coords}
+        out = {'img': all_features, 'label': label, 'coords': all_coords, 'slide_ids': slide_ids}
         return out
